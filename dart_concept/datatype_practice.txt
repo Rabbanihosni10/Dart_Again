@@ -1,0 +1,146 @@
+# Dart Datatypes Practice Questions
+
+## Level 1: Basic Understanding
+
+### Question 1: Variable Declaration
+Declare variables of the following types and assign appropriate values:
+- An integer storing your age
+- A double storing the price of a product (e.g., 49.99)
+- A String storing your name
+- A boolean indicating if you are a student
+
+### Question 2: Type Inference
+What will be the datatype of each variable? Use `var` keyword:
+```dart
+var a = 10;
+var b = 3.14;
+var c = "Hello";
+var d = true;
+```
+
+### Question 3: Null Safety
+Which of these declarations are valid in Dart?
+- `int age = null;`
+- `int? age = null;`
+- `String name;`
+- `String? name;`
+
+## Level 2: Working with Datatypes
+
+### Question 4: Number Operations
+Write code that:
+- Declares two integers: 15 and 4
+- Performs division and stores the result (What datatype is needed?)
+- Performs integer division (What operator to use?)
+- Finds the remainder
+
+### Question 5: String Manipulation
+Create a String variable with your full name, then:
+- Print the length of your name
+- Convert it to uppercase
+- Check if it contains your first name
+- Extract your first name using substring (if possible)
+
+### Question 6: Boolean Logic
+Declare two boolean variables:
+- `isRaining = true`
+- `hasUmbrella = false`
+
+Write an expression that determines: "Should I go outside?" (true if it's not raining OR I have an umbrella)
+
+## Level 3: Collections
+
+### Question 7: Lists
+Create a List of integers containing the numbers 10, 20, 30, 40, 50. Then:
+- Add 60 to the list
+- Remove 30 from the list
+- Print the length of the list
+- Access and print the third element
+
+### Question 8: Sets
+Create a Set of String containing names of 3 fruits. Then:
+- Try adding a duplicate fruit name
+- Check if "apple" exists in the set
+- What's the difference between a List and a Set?
+
+### Question 9: Maps
+Create a Map where:
+- Keys are student names (String)
+- Values are their ages (int)
+
+Add at least 3 students, then:
+- Print a specific student's age
+- Update one student's age
+- Add a new student
+
+## Level 4: Advanced Concepts
+
+### Question 10: Dynamic vs Object
+What's the difference between these declarations?
+```dart
+dynamic x = 10;
+Object y = 10;
+var z = 10;
+```
+Can you reassign different types to each?
+
+### Question 11: Runes and Symbols
+- What are Runes in Dart?
+- Write code to print a heart emoji ❤️ using runes
+- When would you use the Symbol datatype?
+
+### Question 12: Type Conversion
+Convert between these types:
+- String "123" to int
+- int 45 to String
+- String "3.14" to double
+- double 9.8 to int
+
+## Challenge Questions
+
+### Question 13: Mixed Operations
+You have:
+```dart
+int a = 5;
+double b = 2.5;
+```
+What will be the datatype of `a * b`? Why?
+
+### Question 14: Null-aware Operators
+Given:
+```dart
+String? name;
+```
+Write code using null-aware operators to:
+- Assign a default value if name is null
+- Only call `.toUpperCase()` if name is not null
+- Assign a value to name only if it's currently null
+
+### Question 15: Const vs Final
+What's the difference between `const` and `final`? 
+Create examples where:
+- You must use `const`
+- You must use `final`
+- Either could work
+
+---
+
+## Bonus: Real-World Scenario
+
+Create a simple program that stores information about a book:
+- Title (String)
+- Author (String)
+- Price (double)
+- Number of pages (int)
+- Is it available? (bool)
+- Categories/tags (List<String>)
+
+Print all information in a formatted way.
+
+---
+
+**Tips for Practice:**
+- Actually write and run the code in DartPad or your IDE
+- Try to predict the output before running
+- Experiment with modifying the values
+- Pay attention to compile-time vs runtime errors
