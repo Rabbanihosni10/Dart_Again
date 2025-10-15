@@ -50,12 +50,8 @@ Write an expression that determines: "Should I go outside?" (true if it's not ra
 
 ## Level 3: Collections
 
-### Question 7: Lists
-Create a List of integers containing the numbers 10, 20, 30, 40, 50. Then:
-- Add 60 to the list
-- Remove 30 from the list
-- Print the length of the list
-- Access and print the third element
+###
+
 
 ### Question 8: Sets
 Create a Set of String containing names of 3 fruits. Then:
